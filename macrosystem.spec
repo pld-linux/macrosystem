@@ -9,7 +9,8 @@ Source0:	http://dl.sourceforge.net/macrosystem/%{name}-%{version}.tar.gz
 Patch0:		%{name}-c++.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libtool
+BuildRequires:	libstdc++-devel
+BuildRequires:	libtool >= 2:1.4d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
