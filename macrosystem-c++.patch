@@ -1,0 +1,31 @@
+--- macrosystem-0.51.orig/src/macrosystem.cc
++++ macrosystem-0.51/src/macrosystem.cc
+@@ -243,7 +243,7 @@
+ 		    if(macro_type == QUERY_INV) {
+ #ifdef DEBUG
+ 		      debug << "Action: popping macro from query list" << endl;
+-#endif DEBUG
++#endif
+ 		      query_list.pop_back();
+ 		    }
+ 
+@@ -475,7 +475,7 @@
+ ostream& macrosystem::operator<<(ostream& _os, MacroSystem& _ms)
+ {
+   MacroSystem::iterator i;
+-  for(i=_ms.begin(); i!=_ms.end(); i++)
++  for(i=_ms.begin(); !(i==_ms.end()); i++)
+     {
+       if(i->parse_on())
+ 	_os << i->name() << ":";
+--- macrosystem-0.51.orig/src/macrosystem.hh
++++ macrosystem-0.51/src/macrosystem.hh
+@@ -39,6 +39,7 @@
+ 
+ namespace macrosystem
+ {
++  using namespace std;
+ 
+   class MacroSystem;
+ 
+

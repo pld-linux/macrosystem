@@ -5,6 +5,7 @@ Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/macrosystem/%{name}-%{version}.tar.gz
+Patch0:		%{name}-c++.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
@@ -35,6 +36,7 @@ Static macrosystem library.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__libtoolize}
