@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/macrosystem/%{name}-%{version}.tar.gz
+# Source0-md5:	5dbab1c8863888467a515650af96c710
 Patch0:		%{name}-c++.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
