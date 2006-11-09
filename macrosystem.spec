@@ -35,7 +35,7 @@ narzêdzi do preprocessingu.
 Summary:	MacroSystem - development files
 Summary(pl):	MacroSystem - pliki dla programistów
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 MacroSystem - development files.
@@ -47,7 +47,7 @@ MacroSystem - pliki dla programistów.
 Summary:	Static MacroSystem library
 Summary(pl):	Statyczna biblioteka MacroSystem
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static MacroSystem library.
