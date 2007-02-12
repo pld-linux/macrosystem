@@ -1,5 +1,5 @@
 Summary:	MacroSystem - powerful C++ template system
-Summary(pl):	MacroSystem - potê¿ny system szablonów C++
+Summary(pl.UTF-8):   MacroSystem - potÄ™Å¼ny system szablonÃ³w C++
 Name:		macrosystem
 Version:	0.51
 Release:	1
@@ -22,37 +22,37 @@ easy importing and exporting of macro files. It has been used to
 create dynamic web content, email template systems, and many kinds of
 preprocessing utilities.
 
-%description -l pl
-MacroSystem to potê¿ny system szablonów C++ opracowany, aby oddzieliæ
-przetwarzanie danych od generowania tre¶ci. Przy u¿yciu MacroSystemu
-mo¿na wykonywaæ rekurencyjne podstawianie makr, zagnie¿d¿one
-konstrukcje if-else i ifnot-else, ³atwe importowanie i eksportowanie
-plików makr. System jest u¿ywany do tworzenia dynamicznej zawarto¶ci
-stron WWW, systemów szablonów pocztowych oraz wielu rodzajów
-narzêdzi do preprocessingu.
+%description -l pl.UTF-8
+MacroSystem to potÄ™Å¼ny system szablonÃ³w C++ opracowany, aby oddzieliÄ‡
+przetwarzanie danych od generowania treÅ›ci. Przy uÅ¼yciu MacroSystemu
+moÅ¼na wykonywaÄ‡ rekurencyjne podstawianie makr, zagnieÅ¼dÅ¼one
+konstrukcje if-else i ifnot-else, Å‚atwe importowanie i eksportowanie
+plikÃ³w makr. System jest uÅ¼ywany do tworzenia dynamicznej zawartoÅ›ci
+stron WWW, systemÃ³w szablonÃ³w pocztowych oraz wielu rodzajÃ³w
+narzÄ™dzi do preprocessingu.
 
 %package devel
 Summary:	MacroSystem - development files
-Summary(pl):	MacroSystem - pliki dla programistów
+Summary(pl.UTF-8):   MacroSystem - pliki dla programistÃ³w
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 MacroSystem - development files.
 
-%description devel -l pl
-MacroSystem - pliki dla programistów.
+%description devel -l pl.UTF-8
+MacroSystem - pliki dla programistÃ³w.
 
 %package static
 Summary:	Static MacroSystem library
-Summary(pl):	Statyczna biblioteka MacroSystem
+Summary(pl.UTF-8):   Statyczna biblioteka MacroSystem
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static MacroSystem library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka MacroSystem.
 
 %prep
