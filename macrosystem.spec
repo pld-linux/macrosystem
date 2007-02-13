@@ -1,5 +1,5 @@
 Summary:	MacroSystem - powerful C++ template system
-Summary(pl.UTF-8):   MacroSystem - potężny system szablonów C++
+Summary(pl.UTF-8):	MacroSystem - potężny system szablonów C++
 Name:		macrosystem
 Version:	0.51
 Release:	1
@@ -33,7 +33,7 @@ narzędzi do preprocessingu.
 
 %package devel
 Summary:	MacroSystem - development files
-Summary(pl.UTF-8):   MacroSystem - pliki dla programistów
+Summary(pl.UTF-8):	MacroSystem - pliki dla programistów
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -45,7 +45,7 @@ MacroSystem - pliki dla programistów.
 
 %package static
 Summary:	Static MacroSystem library
-Summary(pl.UTF-8):   Statyczna biblioteka MacroSystem
+Summary(pl.UTF-8):	Statyczna biblioteka MacroSystem
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
